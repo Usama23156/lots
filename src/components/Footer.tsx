@@ -1,8 +1,5 @@
 import {
   ArrowRight,
-  Facebook,
-  Instagram,
-  Linkedin,
   Mail,
   MapPin,
   Phone,
@@ -10,9 +7,55 @@ import {
 import { Logo } from "./Logo";
 
 const socialLinks = [
-  { label: "Instagram", icon: Instagram },
-  { label: "Facebook", icon: Facebook },
-  { label: "LinkedIn", icon: Linkedin },
+  {
+    label: "Instagram",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        className="h-5 w-5"
+        fill="none"
+      >
+        <rect
+          x="5"
+          y="5"
+          width="14"
+          height="14"
+          rx="4"
+          stroke="currentColor"
+          strokeWidth="2"
+        />
+        <circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="2" />
+        <circle cx="16.5" cy="7.5" r="1" fill="currentColor" />
+      </svg>
+    ),
+  },
+  {
+    label: "Facebook",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        className="h-5 w-5"
+        fill="currentColor"
+      >
+        <path d="M14.4 8.1H16V5.4c-.8-.1-1.6-.2-2.4-.2-2.4 0-4 1.5-4 4.1v2.3H7v3h2.6V22h3.2v-7.4h2.7l.4-3h-3.1V9.7c0-.9.3-1.6 1.6-1.6Z" />
+      </svg>
+    ),
+  },
+  {
+    label: "LinkedIn",
+    icon: (
+      <svg
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        className="h-5 w-5"
+        fill="currentColor"
+      >
+        <path d="M6.6 8.9H3.5V20h3.1V8.9ZM5.1 4C4 4 3.2 4.8 3.2 5.8S4 7.6 5 7.6s1.9-.8 1.9-1.8S6.1 4 5.1 4ZM20.8 13.6c0-3-1.6-5-4.3-5-1.6 0-2.7.9-3.2 1.7V8.9h-3V20h3.1v-5.8c0-1.5.8-2.7 2.2-2.7s2.1 1.1 2.1 2.7V20h3.1v-6.4Z" />
+      </svg>
+    ),
+  },
 ];
 
 export function Footer() {
@@ -73,8 +116,6 @@ export function Footer() {
                 </p>
                 <div className="flex gap-3">
                   {socialLinks.map((social) => {
-                    const Icon = social.icon;
-
                     return (
                       <a
                         key={social.label}
@@ -83,7 +124,7 @@ export function Footer() {
                         aria-label={social.label}
                         className="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/10 text-[#FAEDCD] transition duration-300 hover:-translate-y-0.5 hover:bg-[#FAEDCD] hover:text-[#3C2F2F]"
                       >
-                        <Icon className="h-5 w-5" />
+                        {social.icon}
                       </a>
                     );
                   })}
