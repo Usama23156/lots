@@ -16,7 +16,10 @@ const cardAnimation = {
 
 export function ContactSection() {
   return (
-    <section className="overflow-hidden bg-[#FEFAF6] px-4 pb-10 pt-6 text-[#3C2F2F] sm:px-6 lg:px-8 lg:pb-16">
+    <section
+      id="contact"
+      className="overflow-hidden bg-[#FEFAF6] px-4 pb-10 pt-6 text-[#3C2F2F] sm:px-6 lg:px-8 lg:pb-16"
+    >
       <div className="mx-auto w-full max-w-7xl">
         <motion.div
           initial="initial"
