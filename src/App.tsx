@@ -1,15 +1,11 @@
-import * as React from "react";
+import { HeroSection } from "./components/HeroSection";
 
-
- function App () {
-  const [privacyOk, setPrivacyOk] = React.useState(true);
-
+function App() {
   return (
-    <div className="min-h-screen bg-[#e8d5b7] text-white">
-     
-     
-
-    </div>
+    <main>
+      <HeroSection />
+    </main>
   );
 }
-export default App ;
+
+export default App;
