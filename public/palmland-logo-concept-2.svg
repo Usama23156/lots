@@ -1,0 +1,20 @@
+<svg width="640" height="180" viewBox="0 0 640 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PalmLand logo concept 2 - Abstract Palm and Horizon</title>
+  <desc id="desc">A minimalist PalmLand logo with an abstract palm shape over a clean horizon line.</desc>
+  <rect x="16" y="18" width="608" height="144" rx="42" fill="#3C2F2F"/>
+  <rect x="16.75" y="18.75" width="606.5" height="142.5" rx="41.25" stroke="#FAEDCD" stroke-opacity="0.24" stroke-width="1.5"/>
+  <g transform="translate(56 40)">
+    <rect x="0" y="0" width="100" height="100" rx="50" fill="#FEFAF6"/>
+    <path d="M19 69H81" stroke="#D4A373" stroke-width="5" stroke-linecap="round"/>
+    <path d="M28 78H72" stroke="#588157" stroke-width="5" stroke-linecap="round"/>
+    <path d="M50.8 68C53.8 55.9 52.8 43.9 47.7 32" stroke="#3C2F2F" stroke-width="5" stroke-linecap="round"/>
+    <path d="M48.5 32.4C39.7 29.1 31.8 30.3 24.7 36C33.5 40.2 41.4 39 48.5 32.4Z" fill="#588157"/>
+    <path d="M50.2 31.4C48.8 21.9 43.5 15.6 34.2 12.5C34.9 22.5 40.2 28.8 50.2 31.4Z" fill="#D4A373"/>
+    <path d="M52.1 31.5C59.1 23.9 67.5 21.3 77.3 23.6C70.9 31.9 62.5 34.5 52.1 31.5Z" fill="#588157"/>
+    <path d="M52.8 32.7C62.6 33.5 69.9 38 74.7 46.1C64.7 46.3 57.4 41.8 52.8 32.7Z" fill="#D4A373"/>
+  </g>
+  <g transform="translate(190 61)">
+    <text x="0" y="43" fill="#FEFAF6" font-family="Playfair Display, Georgia, serif" font-size="52" font-weight="700" letter-spacing="-2.4">PalmLand</text>
+    <text x="3" y="78" fill="#D4A373" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="4.2">FLORIDA LAND INVESTMENTS</text>
+  </g>
+</svg>
