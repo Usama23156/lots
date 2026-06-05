@@ -1,12 +1,15 @@
 import * as React from "react";
 
 
-
-function scrollToInquiry() {
-
+ function App () {
+  const [privacyOk, setPrivacyOk] = React.useState(true);
 
   return (
-    <div>
+    <div className="min-h-screen bg-[#e8d5b7] text-white">
+     
+     
+
     </div>
   );
 }
+export default App ;
